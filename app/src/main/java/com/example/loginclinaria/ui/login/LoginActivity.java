@@ -26,7 +26,7 @@ import com.example.loginclinaria.R;
 import com.example.loginclinaria.ui.login.LoginViewModel;
 import com.example.loginclinaria.ui.login.LoginViewModelFactory;
 import com.example.loginclinaria.databinding.ActivityLoginBinding;
-//dds
+//ddsrrreeee
 public class LoginActivity extends AppCompatActivity {
 
     private LoginViewModel loginViewModel;
