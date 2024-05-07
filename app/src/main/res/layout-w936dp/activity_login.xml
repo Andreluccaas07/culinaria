@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context=".ui.login.LoginActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="840dp"
+        android:layout_height="match_parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="54dp">
+
+        <TextView
+            android:id="@+id/txt_image4"
+            android:layout_width="308dp"
+            android:layout_height="83dp"
+            android:layout_marginStart="484dp"
+            android:layout_marginTop="92dp"
+            android:layout_marginEnd="2dp"
+            android:backgroundTint="#F65C5C"
+            android:text="Carne de Panela Bovina"
+            android:textSize="18dp"
+            app:layout_constraintBottom_toTopOf="@+id/imageView7"
+            app:layout_constraintEnd_toStartOf="@+id/imageView7"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <ProgressBar
+            android:id="@+id/loading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="64dp"
+            android:layout_marginBottom="64dp"
+            android:visibility="gone"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.3" />
+
+        <TextView
+            android:id="@+id/txt_image1"
+            android:layout_width="309dp"
+            android:layout_height="82dp"
+            android:layout_marginStart="52dp"
+            android:layout_marginTop="104dp"
+            android:backgroundTint="#F65C5C"
+            android:text="Carne de Panela Bovina"
+            android:textSize="18dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/txt_image7"
+            android:layout_width="303dp"
+            android:layout_height="81dp"
+            android:layout_marginStart="52dp"
+            android:layout_marginTop="504dp"
+            android:backgroundTint="#F65C5C"
+            android:text="Carne de Panela Bovina"
+            android:textSize="18dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/txt_image9"
+            android:layout_width="303dp"
+            android:layout_height="81dp"
+            android:layout_marginStart="56dp"
+            android:layout_marginTop="900dp"
+            android:backgroundTint="#F65C5C"
+            android:text="Carne de Panela Bovina"
+            android:textSize="18dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/txt_image"
+            android:layout_width="303dp"
+            android:layout_height="81dp"
+            android:layout_marginStart="484dp"
+            android:layout_marginTop="896dp"
+            android:backgroundTint="#F65C5C"
+            android:text="Carne de Panela Bovina"
+            android:textSize="18dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/txt_image6"
+            android:layout_width="303dp"
+            android:layout_height="81dp"
+            android:layout_marginStart="484dp"
+            android:layout_marginTop="100dp"
+            android:backgroundTint="#F65C5C"
+            android:text="Carne de Panela Bovina"
+            android:textSize="18dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@android:drawable/screen_background_dark_transparent"
+            tools:layout_editor_absoluteX="132dp"
+            tools:layout_editor_absoluteY="190dp" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="367dp"
+            android:layout_height="250dp"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="80dp"
+            android:visibility="visible"
+            app:layout_constraintBottom_toTopOf="@+id/txt_image7"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txt_image1"
+            app:srcCompat="@android:drawable/editbox_dropdown_dark_frame" />
+
+        <ImageView
+            android:id="@+id/imageView10"
+            android:layout_width="367dp"
+            android:layout_height="250dp"
+            android:layout_marginStart="452dp"
+            android:layout_marginTop="804dp"
+            android:visibility="visible"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txt_image1"
+            app:srcCompat="@android:drawable/editbox_dropdown_dark_frame" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="367dp"
+            android:layout_height="250dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="800dp"
+            android:visibility="visible"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txt_image1"
+            app:srcCompat="@android:drawable/editbox_dropdown_dark_frame" />
+
+        <Button
+            android:id="@+id/btn_maisinfo5"
+            android:layout_width="170dp"
+            android:layout_height="38dp"
+            android:text="Mais Informações"
+            android:textSize="12dp"
+            tools:layout_editor_absoluteX="176dp"
+            tools:layout_editor_absoluteY="127dp" />
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="367dp"
+            android:layout_height="250dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="412dp"
+            android:layout_marginBottom="150dp"
+            android:visibility="visible"
+            app:layout_constraintBottom_toTopOf="@+id/imageView10"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txt_image1"
+            app:srcCompat="@android:drawable/editbox_dropdown_dark_frame" />
+
+        <ImageView
+            android:id="@+id/imageView9"
+            android:layout_width="367dp"
+            android:layout_height="250dp"
+            android:layout_marginStart="452dp"
+            android:layout_marginTop="412dp"
+            android:layout_marginBottom="109dp"
+            android:visibility="visible"
+            app:layout_constraintBottom_toTopOf="@+id/btn_maisinfo4"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txt_image1"
+            app:srcCompat="@android:drawable/editbox_dropdown_dark_frame" />
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="368dp"
+            android:layout_height="247dp"
+            android:layout_marginStart="456dp"
+            android:layout_marginEnd="25dp"
+            android:visibility="visible"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.555"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txt_image1"
+            app:srcCompat="@android:drawable/editbox_dropdown_dark_frame" />
+
+        <Button
+            android:id="@+id/btn_maisinfo1"
+            android:layout_width="170dp"
+            android:layout_height="38dp"
+            android:text="Mais Informações"
+            android:textSize="12dp"
+            tools:layout_editor_absoluteX="176dp"
+            tools:layout_editor_absoluteY="134dp" />
+
+        <Button
+            android:id="@+id/btn_maisinfo2"
+            android:layout_width="170dp"
+            android:layout_height="38dp"
+            android:text="Mais Informações"
+            android:textSize="12dp"
+            tools:layout_editor_absoluteX="176dp"
+            tools:layout_editor_absoluteY="545dp" />
+
+        <Button
+            android:id="@+id/btn_maisinfo3"
+            android:layout_width="170dp"
+            android:layout_height="38dp"
+            android:text="Mais Informações"
+            android:textSize="12dp"
+            tools:layout_editor_absoluteX="610dp"
+            tools:layout_editor_absoluteY="538dp" />
+
+        <Button
+            android:id="@+id/btn_maisinfo"
+            android:layout_width="170dp"
+            android:layout_height="38dp"
+            android:text="Mais Informações"
+            android:textSize="12dp"
+            tools:layout_editor_absoluteX="610dp"
+            tools:layout_editor_absoluteY="134dp" />
+
+        <TextView
+            android:id="@+id/txt_image8"
+            android:layout_width="305dp"
+            android:layout_height="79dp"
+            android:backgroundTint="#F65C5C"
+            android:text="Carne de Panela Bovina"
+            android:textSize="18dp"
+            tools:layout_editor_absoluteX="484dp"
+            tools:layout_editor_absoluteY="506dp" />
+
+        <Button
+            android:id="@+id/btn_maisinfo4"
+            android:layout_width="170dp"
+            android:layout_height="38dp"
+            android:text="Mais Informações"
+            android:textSize="12dp"
+            tools:layout_editor_absoluteX="176dp"
+            tools:layout_editor_absoluteY="939dp" />
+
+        <Button
+            android:id="@+id/btn_maisinfo6"
+            android:layout_width="170dp"
+            android:layout_height="38dp"
+            android:text="Mais Informações"
+            android:textSize="12dp"
+            tools:layout_editor_absoluteX="597dp"
+            tools:layout_editor_absoluteY="939dp" />
+
+        <ImageButton
+            android:id="@+id/imageButton2"
+            android:layout_width="95dp"
+            android:layout_height="92dp"
+            app:srcCompat="@android:drawable/ic_media_next"
+            tools:layout_editor_absoluteX="663dp"
+            tools:layout_editor_absoluteY="1536dp" />
+
+        <ImageButton
+            android:id="@+id/imageButton3"
+            android:layout_width="99dp"
+            android:layout_height="89dp"
+            app:srcCompat="@android:drawable/ic_media_previous"
+            tools:layout_editor_absoluteX="529dp"
+            tools:layout_editor_absoluteY="1538dp" />
+
+        <Button
+            android:id="@+id/btn_menu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#D5F4085B"
+            android:fontFamily="sans-serif-black"
+            android:text="MENU"
+            android:textSize="15sp"
+            tools:layout_editor_absoluteX="30dp"
+            tools:layout_editor_absoluteY="20dp" />
+
+        <ImageButton
+            android:id="@+id/imageButton4"
+            android:layout_width="95dp"
+            android:layout_height="91dp"
+            app:srcCompat="@android:drawable/ic_menu_send"
+            tools:layout_editor_absoluteX="402dp"
+            tools:layout_editor_absoluteY="1536dp" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
